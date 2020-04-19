@@ -1,0 +1,10 @@
+#
+# Documentation: https://pip.pypa.io/en/stable/user_guide/
+#
+# pybuild3 follows a simple two-file requirements model
+# The contents are specified using a list of parameters starting with the `-r` flag 
+#
+# The first file is boilerplate and should be used for linting tools, release tools (twine) etc.
+-r requirements-base.txt
+# This file is dependencies for your project
+-r requirements-project.txt
